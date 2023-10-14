@@ -1,0 +1,20 @@
+{
+  "private": "true",
+  "workspaces": [
+    "application/client",
+    "application/server",
+    "packages/common",
+    "packages/ui-toolkit"
+  ],
+  "scripts": {
+    "serve:client": "npm run serve --workspace=@application/client"
+  },
+  "homepage": "https://github.com/mzpkjs/webcardridge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzpkjs/webcardridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mzpkjs/webcardridge/issues"
+  }
+}
